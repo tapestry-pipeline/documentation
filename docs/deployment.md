@@ -9,7 +9,16 @@ hide_table_of_contents: true
 
 - Snowflake Account (`deploy`/`kickstart`)
 - Zoom Account (`kickstart`)
+  - A Zoom account with the paid webinar add-on is required to sync data about your webinar registrants
+  - [access Zoom API key article](https://devforum.zoom.us/t/finding-your-api-key-secret-credentials-in-marketplace/3471)
 - Salesforce Account (`kickstart`)
+  - Either a Salesforce developer account (only allowed for non-production/commerical use) or a paid account is required
+    - (the free trial may not allow API access); so this is not a good option
+  - Helpful Resources
+    - Tutorial Video to set-up account and access refresh token (required by `kickstart`)
+      - this video also shows you how to access the `access token`
+      - but for kickstart all you is the refresh token along with your client id (consumer key) and consumer secret(client secret)
+    - [access salesforce token article](https://medium.com/@bpmmendis94/obtain-access-refresh-tokens-from-salesforce-rest-api-a324fe4ccd9b)
 - Mailchimp Account (`kickstart`)
 
 You have a choice between two commands for the pipeline deployment process. The `deploy` command will configure and launch a full user data pipeline equipped with Airbyte for the ingestion tool, Snowflake as your data warehouse, Grouparoo as the syncing tool, and a number of AWS resources needed to host and connect these tools to complete the pipeline.
