@@ -9,15 +9,15 @@ hide_table_of_contents: true
 
 - Snowflake Account (`deploy`/`kickstart`)
 - Zoom Account (`kickstart`)
-  - A Zoom account with the paid webinar add-on is required to sync data about your webinar registrants
+  - A paid Zoom account with the webinar add-on is required for data syncing
   - [access Zoom API key article](https://devforum.zoom.us/t/finding-your-api-key-secret-credentials-in-marketplace/3471)
 - Salesforce Account (`kickstart`)
-  - Either a Salesforce developer account (only allowed for non-production/commerical use) or a paid account is required
-    - (the free trial may not allow API access); so this is not a good option
+  - Either a Salesforce developer account (only allowed for non production/commerical use) or a paid account is required
+    - (the free trial may not allow API access so it won't work for this case)
   - Helpful Resources
-    - Tutorial Video to set-up account and access refresh token (required by `kickstart`)
-      - this video also shows you how to access the `access token`
-      - but for kickstart all you is the refresh token along with your client id (consumer key) and consumer secret(client secret)
+    - [Salesforce Tutorial Video]
+      - shows how to set-up account and retrieve a **refresh token** (**required** for `kickstart`)
+      - this video also shows you how to retrieve an **access token** (**not needed** for `kickstart`)
     - [access salesforce token article](https://medium.com/@bpmmendis94/obtain-access-refresh-tokens-from-salesforce-rest-api-a324fe4ccd9b)
 - Mailchimp Account (`kickstart`)
 
