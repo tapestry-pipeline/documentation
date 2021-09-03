@@ -15,7 +15,7 @@ hide_table_of_contents: true
   - Either a Salesforce developer account (only allowed for non production/commerical use) or a paid account is required
     - (the free trial may not allow API access so it won't work for this case)
   - Helpful Resources
-    - [Salesforce Tutorial Video]
+    - [Salesforce Tutorial Video](https://www.loom.com/share/be9e15befd6e405eac7e7b6720327c09)
       - shows how to set-up account and retrieve a **refresh token** (**required** for `kickstart`)
       - this video also shows you how to retrieve an **access token** (**not needed** for `kickstart`)
     - [access salesforce token article](https://medium.com/@bpmmendis94/obtain-access-refresh-tokens-from-salesforce-rest-api-a324fe4ccd9b)
